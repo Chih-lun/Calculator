@@ -37,9 +37,9 @@ def plus():
         RESULT = eval(CALCULATE)
         CALCULATE = str(RESULT)
         CALCULATE = CALCULATE + '+'
+        ENTER = '0'
     except:
         pass
-    ENTER = '0'
     screen['text'] = RESULT
 
 
@@ -52,9 +52,9 @@ def substract():
         RESULT = eval(CALCULATE)
         CALCULATE = str(RESULT)
         CALCULATE = CALCULATE + '-'
+        ENTER = '0'
     except:
         pass
-    ENTER = '0'
     screen['text'] = RESULT
 
 def multiple():
@@ -66,9 +66,9 @@ def multiple():
         RESULT = eval(CALCULATE)
         CALCULATE = str(RESULT)
         CALCULATE = CALCULATE + '*'
+        ENTER = '0'
     except:
         pass
-    ENTER = '0'
     screen['text'] = RESULT
 
 
@@ -81,9 +81,9 @@ def divide():
         RESULT = eval(CALCULATE)
         CALCULATE = str(RESULT)
         CALCULATE = CALCULATE + '/'
+        ENTER = '0'
     except:
         pass
-    ENTER = '0'
     screen['text'] = RESULT
 
 
